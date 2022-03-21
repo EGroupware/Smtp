@@ -1,5 +1,5 @@
 {
-    "name": "horde/smtp",
+    "name": "egroupware/smtp",
     "description": "SMTP client library",
     "type": "library",
     "homepage": "https://www.horde.org",
@@ -11,31 +11,25 @@
             "role": "lead"
         }
     ],
-    "version": "1.9.7",
+    "version": "1.10.0",
     "time": "2020-11-19",
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "https://pear.horde.org"
-        }
-    ],
     "require": {
-        "php": "^5.3 || ^7",
-        "pear-pear.horde.org/Horde_Exception": "^2",
-        "pear-pear.horde.org/Horde_Mail": "^2",
-        "pear-pear.horde.org/Horde_Socket_Client": "^2",
-        "pear-pear.horde.org/Horde_Support": "^2",
-        "pear-pear.horde.org/Horde_Translation": "^2.2",
-        "pear-pear.horde.org/Horde_Util": "^2"
+        "php": "^7 || ^8",
+        "pear-pear.horde.org/horde_exception": "^2",
+        "pear-pear.horde.org/horde_mail": "^2",
+        "pear-pear.horde.org/horde_socket_client": "^2",
+        "pear-pear.horde.org/horde_support": "^2",
+        "pear-pear.horde.org/horde_translation": "^2.2",
+        "pear-pear.horde.org/horde_util": "^2"
     },
     "suggest": {
-        "pear-pear.horde.org/Horde_Imap_Client": "^2",
-        "pear-pear.horde.org/Horde_Secret": "^2",
-        "pear-pear.horde.org/Horde_Test": "^2.1"
+        "pear-pear.horde.org/horde_imap_client": "^2",
+        "pear-pear.horde.org/horde_secret": "^2",
+        "pear-pear.horde.org/horde_test": "^2.1"
     },
     "replace": {
-        "pear-pear.horde.org/Horde_Smtp": "1.*",
-        "pear-horde/Horde_Smtp": "1.*"
+        "pear-pear.horde.org/horde_smtp": "1.*",
+        "pear-horde/horde_smtp": "1.*"
     },
     "autoload": {
         "psr-0": {
